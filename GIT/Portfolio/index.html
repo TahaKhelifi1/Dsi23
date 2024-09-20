@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">  
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="font-sans leading-normal tracking-normal text-gray-900 bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold"> My personal Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-cover bg-center h-screen" style="background-image: url();">
+        <div class="container mx-auto h-full flex justify-center items-center">
+            <div class="text-center">
+                <h2 class="text-5xl text-white font-bold mb-4">Hello, I'm Taha Khelifi</h2>
+                <p class="text-xl text-gray-300 mb-8">A passionate web developer with expertise in building responsive and dynamic websites.</p>
+                <a href="#projects" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 bg-white">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-8">Skills</h3>
+            <div class="flex flex-wrap justify-center space-x-4">
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-48 text-center">
+                    <p class="font-bold">HTML</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-48 text-center">
+                    <p class="font-bold">CSS</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-48 text-center">
+                    <p class="font-bold">JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-gray-100">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-8">Projects</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-xl mb-2">Project 1</h4>
+                        <p class="text-gray-700">My first project</p>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-xl mb-2">Project 2</h4>
+                        <p class="text-gray-700">My second project</p>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-xl mb-2">Project 3</h4>
+                        <p class="text-gray-700">My third project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-8">Contact Me</h3>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+                </div>
+                <button type="submit" class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="mx-2 text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="mx-2 text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="mx-2 text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
