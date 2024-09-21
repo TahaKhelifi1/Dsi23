@@ -27,12 +27,20 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="bg-cover bg-center h-screen" style="background-image: url();">
+    <section id="home" class="bg-cover bg-center h-screen bg-home">
         <div class="container mx-auto h-full flex justify-center items-center">
-            <div class="text-center">
-                <h2 class="text-5xl text-white font-bold mb-4">Hello, I'm Taha Khelifi</h2>
-                <p class="text-xl text-gray-300 mb-8">A passionate web developer with expertise in building responsive and dynamic websites.</p>
-                <a href="#projects" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500">View My Work</a>
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 flex justify-center lg:justify-end mb-10 lg:mb-10">
+                    <img src="me.jpg" alt="Profile Picture" class="rounded-lg w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 shadow-lg">
+                </div>
+                <div class="lg:w-1/2 text-center lg:text-left lg:pl-8"> <!-- Added lg:pl-8 for padding -->
+                    <h2 class="text-xl text-black font-bold mb-8">Hello, I'm Taha Khelifi</h2>
+                    <p class="text-xl text-black mb-2">Hello everyone! My name is Taha Khelifi. I am a second-year Computer Technology student at the Higher Institute of Technological Studies in Tozeur.</p>
+                    <p class="text-xl text-black mb-8">Im a passionate web developer with expertise in building responsive and dynamic websites.</p>
+                    <div class="flex justify-center lg:justify-start">
+                        <a href="#projects" class="px-8 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 ml-20">View My Work</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -42,14 +50,42 @@
         <div class="container mx-auto">
             <h3 class="text-3xl font-bold text-center mb-8">Skills</h3>
             <div class="flex flex-wrap justify-center space-x-4">
-                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-48 text-center">
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-30 text-center">
                     <p class="font-bold">HTML</p>
                 </div>
-                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-48 text-center">
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-25 text-center">
                     <p class="font-bold">CSS</p>
                 </div>
-                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-48 text-center">
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-30 text-center">
                     <p class="font-bold">JavaScript</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-25 text-center">
+                    <p class="font-bold">Git</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-30 text-center">
+                    <p class="font-bold">Tailwind CSS</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-25 text-center">
+                    <p class="font-bold">React</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-30 text-center">
+                    <p class="font-bold">Node.js</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded-lg shadow-md w-25 text-center">
+                    <p class="font-bold">Boostrap</p>
+                </div>
+        </div>
+    </section>
+    <!-- CV Section -->
+    <section id="cv" class="py-12 bg-gray-100">
+        <div class="container mx-auto ">
+            <h3 class="text-3xl font-bold text-center mb-8">My resume</h3>
+            <div class="flex flex-wrap justify-center space-x-4">
+                <div class="p-4 bg-white rounded-lg shadow-md w-full lg:w-1/2 text-center">
+                    <h4 class="font-bold text-xl mb-4">Education</h4>
+                    <p class="text-gray-600">Second-year Computer Technology student -DSI-</p>
+                    <h4 class="font-bold text-xl mb-4">My CV is here !!</h4>
+                    <a href="Cv.pdf" class="px-2 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-300 ml-0">Download CV</a>
                 </div>
             </div>
         </div>
@@ -113,14 +149,16 @@
     <!-- Footer Section -->
     <footer class="bg-gray-800 text-white py-4">
         <div class="container mx-auto text-center">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p>&copy; 2024 Taha Khelifi. All rights reserved.</p>
             <div class="mt-4">
-                <a href="#" class="mx-2 text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="mx-2 text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="mx-2 text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100013011167178" class="mx-2 text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.instagram.com/taha_khelifi1/" class="mx-2 text-white hover:text-gray-400"><i class="fab fa-instagram"></i>Instagram</a>
+                <p class="mt-4 text-sm -inset-3">Created by Taha Khelifi</p>
             </div>
         </div>
+
     </footer>
+
 
 </body>
 </html>
